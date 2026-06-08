@@ -1,0 +1,113 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Elvis\\Desktop\\para practicar\\repos\\Proveedores\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{71F08F8A-4895-4A18-98B2-F06DEB24ABC8}|Proveedores.Api\\Proveedores.Api.csproj|c:\\users\\elvis\\desktop\\para practicar\\repos\\proveedores\\proveedores.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71F08F8A-4895-4A18-98B2-F06DEB24ABC8}|Proveedores.Api\\Proveedores.Api.csproj|solutionrelative:proveedores.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD624AA1-7726-4351-B6DD-B6254FC556FE}|Proveedores.Tests\\Proveedores.Tests.csproj|c:\\users\\elvis\\desktop\\para practicar\\repos\\proveedores\\proveedores.tests\\integrationtests\\proveedoresapifactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD624AA1-7726-4351-B6DD-B6254FC556FE}|Proveedores.Tests\\Proveedores.Tests.csproj|solutionrelative:proveedores.tests\\integrationtests\\proveedoresapifactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD624AA1-7726-4351-B6DD-B6254FC556FE}|Proveedores.Tests\\Proveedores.Tests.csproj|c:\\users\\elvis\\desktop\\para practicar\\repos\\proveedores\\proveedores.tests\\integrationtests\\proveedorescontrollerintegrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD624AA1-7726-4351-B6DD-B6254FC556FE}|Proveedores.Tests\\Proveedores.Tests.csproj|solutionrelative:proveedores.tests\\integrationtests\\proveedorescontrollerintegrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B74245D-B066-4AFA-852F-F4546EFBC850}|Proveedores.Domain\\Proveedores.Domain.csproj|c:\\users\\elvis\\desktop\\para practicar\\repos\\proveedores\\proveedores.domain\\interfaces\\iproveedorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B74245D-B066-4AFA-852F-F4546EFBC850}|Proveedores.Domain\\Proveedores.Domain.csproj|solutionrelative:proveedores.domain\\interfaces\\iproveedorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71F08F8A-4895-4A18-98B2-F06DEB24ABC8}|Proveedores.Api\\Proveedores.Api.csproj|c:\\users\\elvis\\desktop\\para practicar\\repos\\proveedores\\proveedores.api\\proveedores.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{71F08F8A-4895-4A18-98B2-F06DEB24ABC8}|Proveedores.Api\\Proveedores.Api.csproj|solutionrelative:proveedores.api\\proveedores.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProveedoresControllerIntegrationTests.cs",
+              "DocumentMoniker": "C:\\Users\\Elvis\\Desktop\\para practicar\\repos\\Proveedores\\Proveedores.Tests\\IntegrationTests\\ProveedoresControllerIntegrationTests.cs",
+              "RelativeDocumentMoniker": "Proveedores.Tests\\IntegrationTests\\ProveedoresControllerIntegrationTests.cs",
+              "ToolTip": "C:\\Users\\Elvis\\Desktop\\para practicar\\repos\\Proveedores\\Proveedores.Tests\\IntegrationTests\\ProveedoresControllerIntegrationTests.cs",
+              "RelativeToolTip": "Proveedores.Tests\\IntegrationTests\\ProveedoresControllerIntegrationTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T14:37:53.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProveedoresApiFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Elvis\\Desktop\\para practicar\\repos\\Proveedores\\Proveedores.Tests\\IntegrationTests\\ProveedoresApiFactory.cs",
+              "RelativeDocumentMoniker": "Proveedores.Tests\\IntegrationTests\\ProveedoresApiFactory.cs",
+              "ToolTip": "C:\\Users\\Elvis\\Desktop\\para practicar\\repos\\Proveedores\\Proveedores.Tests\\IntegrationTests\\ProveedoresApiFactory.cs",
+              "RelativeToolTip": "Proveedores.Tests\\IntegrationTests\\ProveedoresApiFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T14:36:58.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Proveedores.Api",
+              "DocumentMoniker": "C:\\Users\\Elvis\\Desktop\\para practicar\\repos\\Proveedores\\Proveedores.Api\\Proveedores.Api.csproj",
+              "RelativeDocumentMoniker": "Proveedores.Api\\Proveedores.Api.csproj",
+              "ToolTip": "C:\\Users\\Elvis\\Desktop\\para practicar\\repos\\Proveedores\\Proveedores.Api\\Proveedores.Api.csproj",
+              "RelativeToolTip": "Proveedores.Api\\Proveedores.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-08T14:35:44.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IProveedorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Elvis\\Desktop\\para practicar\\repos\\Proveedores\\Proveedores.Domain\\Interfaces\\IProveedorRepository.cs",
+              "RelativeDocumentMoniker": "Proveedores.Domain\\Interfaces\\IProveedorRepository.cs",
+              "ToolTip": "C:\\Users\\Elvis\\Desktop\\para practicar\\repos\\Proveedores\\Proveedores.Domain\\Interfaces\\IProveedorRepository.cs",
+              "RelativeToolTip": "Proveedores.Domain\\Interfaces\\IProveedorRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T14:29:50.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Elvis\\Desktop\\para practicar\\repos\\Proveedores\\Proveedores.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Proveedores.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\Elvis\\Desktop\\para practicar\\repos\\Proveedores\\Proveedores.Api\\Program.cs",
+              "RelativeToolTip": "Proveedores.Api\\Program.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAGAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-07T23:15:25.962Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+C:\Users\Elvis\Desktop\para practicar\repos\Proveedores\Proveedores.Application\bin\Debug\net8.0\Proveedores.Application.deps.json
+C:\Users\Elvis\Desktop\para practicar\repos\Proveedores\Proveedores.Application\bin\Debug\net8.0\Proveedores.Application.dll
+C:\Users\Elvis\Desktop\para practicar\repos\Proveedores\Proveedores.Application\bin\Debug\net8.0\Proveedores.Application.pdb
+C:\Users\Elvis\Desktop\para practicar\repos\Proveedores\Proveedores.Application\bin\Debug\net8.0\Proveedores.Domain.dll
+C:\Users\Elvis\Desktop\para practicar\repos\Proveedores\Proveedores.Application\bin\Debug\net8.0\Proveedores.Domain.pdb
+C:\Users\Elvis\Desktop\para practicar\repos\Proveedores\Proveedores.Application\obj\Debug\net8.0\Proveedores.Application.csproj.AssemblyReference.cache
+C:\Users\Elvis\Desktop\para practicar\repos\Proveedores\Proveedores.Application\obj\Debug\net8.0\Proveedores.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Elvis\Desktop\para practicar\repos\Proveedores\Proveedores.Application\obj\Debug\net8.0\Proveedores.Application.AssemblyInfoInputs.cache
+C:\Users\Elvis\Desktop\para practicar\repos\Proveedores\Proveedores.Application\obj\Debug\net8.0\Proveedores.Application.AssemblyInfo.cs
+C:\Users\Elvis\Desktop\para practicar\repos\Proveedores\Proveedores.Application\obj\Debug\net8.0\Proveedores.Application.csproj.CoreCompileInputs.cache
+C:\Users\Elvis\Desktop\para practicar\repos\Proveedores\Proveedores.Application\obj\Debug\net8.0\Proveedo.49F40132.Up2Date
+C:\Users\Elvis\Desktop\para practicar\repos\Proveedores\Proveedores.Application\obj\Debug\net8.0\Proveedores.Application.dll
+C:\Users\Elvis\Desktop\para practicar\repos\Proveedores\Proveedores.Application\obj\Debug\net8.0\refint\Proveedores.Application.dll
+C:\Users\Elvis\Desktop\para practicar\repos\Proveedores\Proveedores.Application\obj\Debug\net8.0\Proveedores.Application.pdb
+C:\Users\Elvis\Desktop\para practicar\repos\Proveedores\Proveedores.Application\obj\Debug\net8.0\ref\Proveedores.Application.dll

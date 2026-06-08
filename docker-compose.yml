@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  mongodb:
+    image: mongo:6
+    container_name: proveedores-mongo
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
+
+  proveedores-api:
+    build:
+      context: .
+      dockerfile: Proveedores.Api/Dockerfile
+    container_name: proveedores-api
+    ports:
+      - "5000:8080"
+      - "5001:443"
+    environment:
+      - ConnectionStrings__MongoDb=mongodb+srv://egonate_db_user:viselito07@cluster1.yrzqu4p.mongodb.net/?appName=Cluster1
+      - MongoDb__DatabaseName=ProveedoresDB
+      - Jwt__Key=EstaEsUnaLlaveSuperSecretaDe128Bits!
+      - Jwt__Issuer=ProveedoresApi
+      - Jwt__Audience=ProveedoresApiAudience
+      - ASPNETCORE_ENVIRONMENT=Development
+    depends_on:
+      - mongodb
+
+volumes:
+  mongo-data:

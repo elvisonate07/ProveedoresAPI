@@ -1,0 +1,17 @@
+C:\Users\Elvis\Desktop\para practicar\repos\Proveedores\Proveedores.Infrastructure\bin\Debug\net8.0\Proveedores.Infrastructure.deps.json
+C:\Users\Elvis\Desktop\para practicar\repos\Proveedores\Proveedores.Infrastructure\bin\Debug\net8.0\Proveedores.Infrastructure.dll
+C:\Users\Elvis\Desktop\para practicar\repos\Proveedores\Proveedores.Infrastructure\bin\Debug\net8.0\Proveedores.Infrastructure.pdb
+C:\Users\Elvis\Desktop\para practicar\repos\Proveedores\Proveedores.Infrastructure\bin\Debug\net8.0\Proveedores.Application.dll
+C:\Users\Elvis\Desktop\para practicar\repos\Proveedores\Proveedores.Infrastructure\bin\Debug\net8.0\Proveedores.Domain.dll
+C:\Users\Elvis\Desktop\para practicar\repos\Proveedores\Proveedores.Infrastructure\bin\Debug\net8.0\Proveedores.Application.pdb
+C:\Users\Elvis\Desktop\para practicar\repos\Proveedores\Proveedores.Infrastructure\bin\Debug\net8.0\Proveedores.Domain.pdb
+C:\Users\Elvis\Desktop\para practicar\repos\Proveedores\Proveedores.Infrastructure\obj\Debug\net8.0\Proveedores.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Elvis\Desktop\para practicar\repos\Proveedores\Proveedores.Infrastructure\obj\Debug\net8.0\Proveedores.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Elvis\Desktop\para practicar\repos\Proveedores\Proveedores.Infrastructure\obj\Debug\net8.0\Proveedores.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Elvis\Desktop\para practicar\repos\Proveedores\Proveedores.Infrastructure\obj\Debug\net8.0\Proveedores.Infrastructure.AssemblyInfo.cs
+C:\Users\Elvis\Desktop\para practicar\repos\Proveedores\Proveedores.Infrastructure\obj\Debug\net8.0\Proveedores.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Elvis\Desktop\para practicar\repos\Proveedores\Proveedores.Infrastructure\obj\Debug\net8.0\Proveedo.1F135FEE.Up2Date
+C:\Users\Elvis\Desktop\para practicar\repos\Proveedores\Proveedores.Infrastructure\obj\Debug\net8.0\Proveedores.Infrastructure.dll
+C:\Users\Elvis\Desktop\para practicar\repos\Proveedores\Proveedores.Infrastructure\obj\Debug\net8.0\refint\Proveedores.Infrastructure.dll
+C:\Users\Elvis\Desktop\para practicar\repos\Proveedores\Proveedores.Infrastructure\obj\Debug\net8.0\Proveedores.Infrastructure.pdb
+C:\Users\Elvis\Desktop\para practicar\repos\Proveedores\Proveedores.Infrastructure\obj\Debug\net8.0\ref\Proveedores.Infrastructure.dll

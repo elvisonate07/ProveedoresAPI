@@ -1,0 +1,12 @@
+C:\Users\Elvis\Desktop\para practicar\repos\Proveedores\Proveedores.Domain\bin\Debug\net8.0\Proveedores.Domain.deps.json
+C:\Users\Elvis\Desktop\para practicar\repos\Proveedores\Proveedores.Domain\bin\Debug\net8.0\Proveedores.Domain.dll
+C:\Users\Elvis\Desktop\para practicar\repos\Proveedores\Proveedores.Domain\bin\Debug\net8.0\Proveedores.Domain.pdb
+C:\Users\Elvis\Desktop\para practicar\repos\Proveedores\Proveedores.Domain\obj\Debug\net8.0\Proveedores.Domain.csproj.AssemblyReference.cache
+C:\Users\Elvis\Desktop\para practicar\repos\Proveedores\Proveedores.Domain\obj\Debug\net8.0\Proveedores.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Elvis\Desktop\para practicar\repos\Proveedores\Proveedores.Domain\obj\Debug\net8.0\Proveedores.Domain.AssemblyInfoInputs.cache
+C:\Users\Elvis\Desktop\para practicar\repos\Proveedores\Proveedores.Domain\obj\Debug\net8.0\Proveedores.Domain.AssemblyInfo.cs
+C:\Users\Elvis\Desktop\para practicar\repos\Proveedores\Proveedores.Domain\obj\Debug\net8.0\Proveedores.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Elvis\Desktop\para practicar\repos\Proveedores\Proveedores.Domain\obj\Debug\net8.0\Proveedores.Domain.dll
+C:\Users\Elvis\Desktop\para practicar\repos\Proveedores\Proveedores.Domain\obj\Debug\net8.0\refint\Proveedores.Domain.dll
+C:\Users\Elvis\Desktop\para practicar\repos\Proveedores\Proveedores.Domain\obj\Debug\net8.0\Proveedores.Domain.pdb
+C:\Users\Elvis\Desktop\para practicar\repos\Proveedores\Proveedores.Domain\obj\Debug\net8.0\ref\Proveedores.Domain.dll
