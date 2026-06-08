@@ -2,6 +2,7 @@
 using FluentValidation;
 using MediatR;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.RateLimiting;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
@@ -9,14 +10,28 @@ using Proveedores.Api;
 using Proveedores.Api.Middleware;
 using Proveedores.Application.Common.Behaviors;
 using Proveedores.Application.Features.Proveedores.Commands;
+using Proveedores.Domain.Entities;
+using Proveedores.Domain.Interfaces;
 using Proveedores.Infrastructure;
 using System.Text;
-
+using System.Threading.RateLimiting;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
+
+builder.Services.AddRateLimiter(options =>
+{
+    options.AddFixedWindowLimiter("LoginPolicy", opt =>
+    {
+        opt.PermitLimit = 5;
+        opt.Window = TimeSpan.FromMinutes(1);
+        opt.QueueLimit = 0;
+    });
+
+    options.RejectionStatusCode = StatusCodes.Status429TooManyRequests;
+});
 
 builder.Services.AddSwaggerGen(c =>
 {
@@ -76,6 +91,21 @@ builder.Services.AddInfrastructure(builder.Configuration);
 
 var app = builder.Build();
 
+// Seed admin user
+using (var scope = app.Services.CreateScope())
+{
+    var userRepo = scope.ServiceProvider.GetRequiredService<IUserRepository>();
+    if (!await userRepo.ExistsByCorreoAsync("admin@test.com"))
+    {
+        await userRepo.CreateAsync(new User
+        {
+            Correo = "admin@test.com",
+            PasswordHash = BCrypt.Net.BCrypt.HashPassword("123456"),
+            Rol = "Admin"
+        });
+    }
+}
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -85,6 +115,8 @@ if (app.Environment.IsDevelopment())
 app.UseMiddleware<ExceptionMiddleware>();
 
 app.UseHttpsRedirection();
+
+app.UseRateLimiter();
 
 app.UseAuthentication();
 app.UseAuthorization();

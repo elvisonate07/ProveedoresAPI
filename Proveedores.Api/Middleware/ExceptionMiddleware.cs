@@ -6,10 +6,12 @@ namespace Proveedores.Api.Middleware;
 public class ExceptionMiddleware
 {
     private readonly RequestDelegate _next;
+    private readonly IWebHostEnvironment _env;
 
-    public ExceptionMiddleware(RequestDelegate next)
+    public ExceptionMiddleware(RequestDelegate next, IWebHostEnvironment env)
     {
         _next = next;
+        _env = env;
     }
 
     public async Task InvokeAsync(HttpContext context)
@@ -24,7 +26,7 @@ public class ExceptionMiddleware
         }
     }
 
-    private static async Task HandleExceptionAsync(HttpContext context, Exception exception)
+    private async Task HandleExceptionAsync(HttpContext context, Exception exception)
     {
         context.Response.ContentType = "application/json";
         context.Response.StatusCode = (int)HttpStatusCode.InternalServerError;
@@ -32,7 +34,7 @@ public class ExceptionMiddleware
         var response = new
         {
             mensaje = "Ocurrió un error interno",
-            detalle = exception.Message
+            detalle = _env.IsDevelopment() ? exception.Message : "Consulte los logs internos para más detalles"
         };
 
         await context.Response.WriteAsync(JsonSerializer.Serialize(response));

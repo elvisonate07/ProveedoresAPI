@@ -18,6 +18,7 @@ public static class DependencyInjection
 
         services.AddSingleton(new MongoDbContext(connectionString, databaseName));
         services.AddScoped<IProveedorRepository, ProveedorRepository>();
+        services.AddScoped<IUserRepository, UserRepository>();
         services.AddScoped<IJwtService, JwtService>();
 
         return services;
