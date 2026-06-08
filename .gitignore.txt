@@ -1,7 +1,0 @@
-echo "bin/
-obj/
-.vs/
-*.user
-appsettings.*.json
-.DS_Store
-" > .gitignore

@@ -18,14 +18,13 @@ services:
       - "5000:8080"
       - "5001:443"
     environment:
-      - ConnectionStrings__MongoDb=mongodb+srv://egonate_db_user:viselito07@cluster1.yrzqu4p.mongodb.net/?appName=Cluster1
+      - ConnectionStrings__MongoDb=mongodb+srv://egonate_db_user:mojisinho07@cluster1.yrzqu4p.mongodb.net/
       - MongoDb__DatabaseName=ProveedoresDB
       - Jwt__Key=EstaEsUnaLlaveSuperSecretaDe128Bits!
       - Jwt__Issuer=ProveedoresApi
       - Jwt__Audience=ProveedoresApiAudience
+      - ASPNETCORE_URLS=http://+:8080
       - ASPNETCORE_ENVIRONMENT=Development
-    depends_on:
-      - mongodb
 
 volumes:
   mongo-data:
