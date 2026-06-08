@@ -8,6 +8,7 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using Proveedores.Api;
 using Proveedores.Api.Middleware;
+using Proveedores.Infrastructure.Data;
 using Proveedores.Application.Common.Behaviors;
 using Proveedores.Application.Features.Proveedores.Commands;
 using Proveedores.Domain.Entities;
@@ -91,7 +92,7 @@ builder.Services.AddInfrastructure(builder.Configuration);
 
 var app = builder.Build();
 
-// Seed admin user
+// Seed admin user and ensure indexes
 using (var scope = app.Services.CreateScope())
 {
     var userRepo = scope.ServiceProvider.GetRequiredService<IUserRepository>();
@@ -104,6 +105,9 @@ using (var scope = app.Services.CreateScope())
             Rol = "Admin"
         });
     }
+
+    var dbContext = scope.ServiceProvider.GetRequiredService<MongoDbContext>();
+    await dbContext.EnsureIndexesAsync();
 }
 
 if (app.Environment.IsDevelopment())

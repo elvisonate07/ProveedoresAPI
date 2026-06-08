@@ -16,6 +16,9 @@ public class CreateProveedorCommandHandler : IRequestHandler<CreateProveedorComm
 
     public async Task<ProveedorDto> Handle(CreateProveedorCommand request, CancellationToken cancellationToken)
     {
+        if (await _repository.ExistsByNitAsync(request.Nit))
+            throw new FluentValidation.ValidationException($"Ya existe un proveedor con el NIT {request.Nit}");
+
         var proveedor = new Proveedor
         {
             Nit = request.Nit,

@@ -27,4 +27,18 @@ public class MongoDbContext
 
     public IMongoCollection<User> Users =>
         _database.GetCollection<User>("Users");
+
+    public async Task EnsureIndexesAsync()
+    {
+        var indexKeys = Builders<Proveedor>.IndexKeys.Ascending(p => p.Nit);
+        var indexOptions = new CreateIndexOptions { Unique = true, Name = "NIT_UNIQUE" };
+        var indexModel = new CreateIndexModel<Proveedor>(indexKeys, indexOptions);
+        try
+        {
+            await Proveedores.Indexes.CreateOneAsync(indexModel);
+        }
+        catch
+        {
+        }
+    }
 }
